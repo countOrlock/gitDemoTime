@@ -5,5 +5,11 @@ Lets do a demo with command line git!
 ## List of commands
 
 ...
-git init		# Initialize a new git repository
+git add <fileName>
+git add -A				#Add all changes to stage
+git commit -m "<msg>"	#commited staged changes w/ msg
+
+git checkout -b <branchName>	#Creates and checkout new branch
+git checkout <branchname>	#Checkout existing branch
+git status		#I need and adult
 ...
